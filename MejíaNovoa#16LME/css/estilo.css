@@ -1,0 +1,171 @@
+section{
+  width: 100%;
+}
+body{
+  background-color: #00030F;
+}
+nav[class="menu"]{
+  position: fixed;
+  background-color:rgba(0, 0, 0, 1);
+  top: 0;
+  margin-left: -8px;
+  z-index: 2;
+  width: 100%;
+  margin-top: -1em;
+}
+nav[class="menu"] ul {
+  list-style: none;
+  font-size: 1em;
+  margin-bottom: 0em;
+  margin-left: 45em;
+ }
+nav[class="menu"] li {
+  line-height: 4rem;
+  position: relative;
+}
+nav[class="menu"] ul{
+  display: inline-flex;
+}
+nav[class="menu"] li ul{
+  position: absolute;
+  display: inline-flex;
+}
+
+nav[class="menu"] a{
+  text-decoration: none;
+  display: flex;
+  padding: 0 2.5em;
+  color: white;
+  transition: background 0.4s;
+}
+
+nav[class="menu"] a:hover {
+  color: gold;
+  border-bottom: solid 2px white;
+  line-height: 3.9rem;
+}
+
+.icon{
+  margin-left: 50em;
+}
+/*PRIMER MENU*/
+nav[class="menu"] > ul {
+  background-color: none;
+  display: flex;
+  width: 100%
+}
+#inicio{
+  width: 100%;
+  height: 670px;
+  background-image: url(../img/fondo.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+
+  position: relative;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+#inicio::before{
+  content:"";
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  opacity: 0.5;
+}
+.facultad{
+  background-color: black;
+  color: #FFF;
+  float:left;
+  margin-right: 20px;
+  padding: 20px; 
+  text-align: justify;
+  margin-left: 5em;
+  margin-top: 2em;
+  width: 240px;
+}
+#img{
+  /*position: absolute;*/
+}
+.mas{
+  font:bold 1.1em Arial, Helvetica, sans-serif;
+  height: 15px;
+  width: 80px;
+  margin-left: 4em;
+  padding: 5px 2px 7px 7px;
+  background-color: #FFF;
+  border-radius: 15px 15px 15px 15px;
+  box-shadow: rgb(0, 0, 0, 0.5) 0px 0px 5px;
+}
+
+.mas a{
+  color:#000;
+  text-shadow: none;
+}
+h2{
+  font-family: 'Akaya Telivigala', cursive;
+  text-align: center;
+}
+h1{
+  font-family: 'Akaya Telivigala', cursive;
+  text-align: center;
+  color:white;
+  color: white;
+
+  position: relative;
+  text-align: center;
+  border-bottom: yellow 0.6vw solid;
+  margin-right: 36%;
+  margin-left: 40%;
+}
+.faculta{
+  background-color: black;
+  color: #FFF;
+  float:left;
+  margin-right: 20px;
+  padding: 20px; 
+  text-align: justify;
+  margin-left: 1em;
+  margin-top: 2em;
+  width: 240px;
+}
+.facult{
+  background-color: black;
+  color: #FFF;
+  float:left;
+  margin-right: 20px;
+  padding: 20px; 
+  text-align: justify;
+  margin-left: 2em;
+  margin-top: 2em;
+  width: 525px;
+}
+#ima{
+  margin-left: 17em;
+  margin-top: -0.5em;
+  opacity: 100%;
+}
+#imag{
+  margin-top:-50em;
+  opacity: 100%;
+}
+.ima:hover{
+  opacity: 70%;
+}
+.imag:hover{
+  opacity: 70%;
+}
+footer {
+  color:white;
+  text-align:center;
+  margin-top: 50em;
+  background-color:rgba(0, 0, 0, 1);
+  z-index: 2;
+  width: 100%;
+  height: 100%;
+
+   line-height: 4rem;
+}
